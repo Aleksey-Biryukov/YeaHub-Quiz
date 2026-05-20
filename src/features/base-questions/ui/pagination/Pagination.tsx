@@ -9,7 +9,8 @@ import type { PaginationProps } from "../../model/types";
 function Pagination({ totalPages }: PaginationProps) {
   const [searchParams, setSearchParams] = useSearchParams();
   const currentPage = Number(searchParams.get("page") || "1");
-  const paginationNumbers = getPaginationNumbers(currentPage, totalPages);
+  const paginationNumbers: ReturnType<typeof getPaginationNumbers> =
+    getPaginationNumbers(currentPage, totalPages);
 
   if (totalPages <= 1) return null;
 
