@@ -1,5 +1,5 @@
 import { useAppDispatch, useAppSelector } from "@/app/hooks/hooks";
-import { useLazyGetBaseQuestionsQuery } from "@/entities/questions/api/baseQuestionsApi";
+import { useLazyGetBaseQuestionsQuery } from "@/entities/base-questions";
 import {
   setCurrentIndex,
   setCurrentPage,
