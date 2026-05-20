@@ -1,0 +1,34 @@
+.answer_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-bottom: 0.5px solid #d1d1d1;
+  padding-bottom: 24px;
+}
+
+.question_title {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.title_text {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.answer_content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.show_answer_btn {
+  width: fit-content;
+  cursor: pointer;
+}
+.btn_text {
+  color: var(--purple-700);
+  font-size: 14px;
+  font-weight: 400;
+}

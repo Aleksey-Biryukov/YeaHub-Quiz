@@ -1,0 +1,12 @@
+.interview_wrapper {
+  width: 1216px;
+  /* height: 602px; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: var(--color-white);
+  margin-top: 40px;
+  margin-bottom: 66px;
+  padding: 24px;
+  gap: 48px;
+}

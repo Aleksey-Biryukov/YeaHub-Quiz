@@ -1,0 +1,23 @@
+.not_found_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.not_found_text {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.not_found_button {
+  width: 180px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--purple-700);
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--purple-700);
+  cursor: pointer;
+}

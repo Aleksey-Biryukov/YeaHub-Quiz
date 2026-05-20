@@ -1,0 +1,21 @@
+.quiz_nav_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav_link_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav_text {
+  color: var(--purple-700);
+  font-weight: 600;
+  font-size: 16px;
+}

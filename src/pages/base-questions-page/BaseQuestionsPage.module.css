@@ -1,0 +1,13 @@
+.questions_wrapper {
+  padding: 41px 0 98px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (max-width: 1230px) {
+  .questions_wrapper {
+    gap: 0px;
+  }
+}

@@ -1,0 +1,42 @@
+.countQuestions_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title_text {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--black-700);
+}
+
+.countQuestions_items {
+  height: 42px;
+  width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid var(--black-200);
+  border-radius: 12px;
+  padding: 11px 12px 11px 12px;
+  background-color: var(--color-white);
+}
+.item {
+  width: 20px;
+  height: 20px;
+  color: var(--black-200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item_count {
+  width: 20px;
+  height: 20px;
+  color: var(--black-200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

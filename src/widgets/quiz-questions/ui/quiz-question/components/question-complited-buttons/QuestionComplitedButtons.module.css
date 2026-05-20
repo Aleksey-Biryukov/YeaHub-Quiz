@@ -1,0 +1,32 @@
+.complited_buttons_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.complited_buttons {
+  max-width: 120px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 12px 10px 12px;
+  gap: 8px;
+  background-color: inherit;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.complited_text_down {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--black-700);
+}
+
+.complited_text_up {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--purple-700);
+}
+
+.complited_buttons:hover {
+  background-color: #f8f8f8;
+  transition: 0.3s;
+}

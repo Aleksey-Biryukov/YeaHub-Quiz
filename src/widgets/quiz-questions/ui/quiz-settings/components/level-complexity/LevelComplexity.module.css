@@ -1,0 +1,36 @@
+.complexity_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title_text {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--black-700);
+}
+
+.complexity_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.list_item {
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--black-200);
+  border-radius: 12px;
+  padding: 6px 12px 6px 12px;
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+.item_text {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--black-200);
+}

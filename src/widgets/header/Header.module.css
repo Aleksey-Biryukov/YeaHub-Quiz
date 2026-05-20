@@ -1,0 +1,145 @@
+.header {
+  width: 100%;
+  height: 64px;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header_nav {
+  width: 100%;
+  max-width: 1216px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 5px 0 5px;
+}
+
+.nav_wrap {
+  max-width: 576px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: left;
+  font-weight: 500;
+}
+
+.logo_wrap {
+  display: flex;
+  gap: 8px;
+}
+
+.nav_list {
+  display: flex;
+  gap: 8px;
+}
+
+.nav_menu {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn_burger {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 35px;
+  transition: 0.3s ease;
+  border-radius: 12px;
+  padding: 0 10px 0 10px;
+}
+
+.item:hover {
+  background-color: var(--black-25);
+}
+
+.item_text {
+  font-weight: 500;
+  color: var(--black-900);
+}
+
+.item_text:hover {
+  color: var(--purple-700);
+}
+
+.nav_authorization_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* BURGER */ /* BURGER */ /* BURGER */ /* BURGER */ /* BURGER */
+
+.btn_burger_menu {
+  display: none;
+}
+/* BURGER */ /* BURGER */ /* BURGER */ /* BURGER */ /* BURGER */
+
+.nav_authorization {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 235px;
+  height: 48px;
+}
+
+.button_registration {
+  width: 170px;
+  height: 48px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: none;
+  font-weight: 500;
+  color: var(--color-white);
+  background-color: var(--purple-700);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.link_login {
+  display: flex;
+  align-items: center;
+  width: 65px;
+  height: 48px;
+  border: solid 2px transparent;
+  transition: border 0.3s ease;
+  border-radius: 12px;
+}
+
+.login_text {
+  color: var(--purple-700);
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.link_login:hover {
+  border-color: var(--purple-700);
+}
+
+@media (max-width: 830px) {
+  .nav_authorization {
+    display: none;
+  }
+  .btn_burger_menu {
+    display: flex;
+  }
+  .nav_list {
+    display: none;
+  }
+  .nav_menu {
+    display: flex;
+  }
+}

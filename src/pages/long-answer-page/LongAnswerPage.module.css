@@ -1,0 +1,6 @@
+.longAnswer_wrapper {
+  padding: 24px 0 130px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

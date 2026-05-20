@@ -1,0 +1,36 @@
+.sidebar_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar_modal_wrap {
+  height: calc(100vh - 64px);
+  overflow-x: scroll;
+  position: fixed;
+  top: 64px;
+  right: 0;
+  background-color: var(--color-white);
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.btn_close_wrap {
+  width: 100%;
+  padding-right: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1230px) {
+  .sidebar_modal_wrap {
+    display: flex;
+  }
+}

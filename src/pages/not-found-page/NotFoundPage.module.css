@@ -1,0 +1,61 @@
+.not_found {
+  min-height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+.code {
+  font-size: 120px;
+  font-weight: 700;
+
+  color: var(--purple-700);
+
+  line-height: 1;
+}
+
+.title {
+  margin-top: 16px;
+
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 12px;
+
+  max-width: 400px;
+
+  color: var(--black-600);
+
+  line-height: 1.5;
+}
+.home_link {
+  margin-top: 32px;
+
+  padding: 14px 24px;
+
+  border-radius: 12px;
+
+  background-color: var(--purple-700);
+
+  color: white;
+
+  font-weight: 500;
+
+  transition: 0.3s ease;
+}
+
+.home_link:hover {
+  opacity: 0.9;
+}

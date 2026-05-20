@@ -1,0 +1,22 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.layout_header {
+  width: 100%;
+  display: flex;
+}
+.layout_main {
+  width: 100%;
+  flex: 1;
+  background-color: var(--black-25);
+  display: flex;
+  justify-content: center;
+  padding: 0 5px 0 5px;
+}
+
+.layout_footer {
+  width: 100%;
+  display: flex;
+}

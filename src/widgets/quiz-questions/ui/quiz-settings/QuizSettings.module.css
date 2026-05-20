@@ -1,0 +1,42 @@
+.interview_content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title_text {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--black-900);
+}
+
+.interview_blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left_block {
+  max-width: 700px;
+  min-height: 405px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.right_block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.interview_buttonStart {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 450px) {
+  .interview_blocks {
+    flex-direction: column;
+  }
+}

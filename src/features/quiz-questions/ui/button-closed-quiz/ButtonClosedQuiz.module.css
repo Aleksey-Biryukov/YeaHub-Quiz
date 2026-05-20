@@ -1,0 +1,18 @@
+.btn_wrapper {
+  width: 170px;
+  height: 48px;
+  background-color: #fdd8e1;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn_text {
+  font-weight: 600;
+  font-size: 16px;
+  color: #f3164e;
+}
+
+.btn_wrapper:hover {
+  background-color: #f6a5b8;
+}
